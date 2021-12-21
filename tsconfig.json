@@ -1,0 +1,44 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    // 用来指定 ES 版本
+    "target": "ES2020",
+    // 指定要使用模块化的规范
+    "module": "ESNext",
+    // 用来指定编译后文件的存放位置
+    "outDir": "./build",
+    // 是否检查js代码是否符合语法规范
+    "checkJs": true,
+    // 是否移除注释
+    "removeComments": true,
+    // 当有错误时是否生成文件
+    "onEmitOnError": true,
+    // 所有的严格检查的总开关
+    "strict": true,
+    // 编译后的文件是否开启严格模式
+    "alwaysStrict": true,
+    // 不允许隐式的any
+    "noImplicitAny": true,
+    // 不允许隐式的this
+    "noImplicitThis": true,
+    // 是否严格的检查空值
+    "strictNullChecks": true,
+    // 是否严格检查函数的类型
+    "strictFunctionTypes": true,
+    // 是否严格检查属性是否初始化
+    "strictPropertyInitialization": true,
+    // 是否检查switch语句包含正确的break
+    "noFallthroughCasesInSwitch": true,
+    // 检查函数没有隐式的返回值
+    "noImplicitReturns": true,
+    // 是否检查检查未使用的局部变量
+    "noUnusedLocals": true,
+    // 是否检查未使用的参数
+    "noUnusedParameters": true
+  }
+}
